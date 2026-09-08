@@ -1,0 +1,24 @@
+# חבילות npm - נבנות מחדש עם npm install מתוך package.json
+node_modules
+
+# תוצרי Build של Vite
+dist
+dist-ssr
+
+# קבצי סביבה מקומיים - אם יש בהם סוד אמיתי, שלא יעלו לריפו (.env.example
+# כן נשאר, הוא לא מכיל סודות - רק דוגמה למבנה)
+.env
+.env.local
+.env.*.local
+*.local
+
+# לוגים
+*.log
+npm-debug.log*
+
+# עורך/מערכת הפעלה
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
